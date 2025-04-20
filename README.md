@@ -9,7 +9,7 @@ Taking advantage of another core function of the predecessor, this "fox" can be 
 
 Initially, the arduino will braodcast in the voice of a 1980's Speak 'n' Spell speech synthesiser, thanks to https://github.com/earlephilhower/ESP8266Audio but the library supports the playing of sampled audio files: an obvious evolution.
 
-v0.90.01 20250420
+### v0.90.01 20250420
 First pass. Removed all the uneccessary code for MQTT (which I'll probably regret), added the necessities for regular retransmit, and a few of the basic DTMD commands. Tested the regular transmit. The DTMF receive code is not tested, but I think it's a hardware fault. 
 
 ## To Do
